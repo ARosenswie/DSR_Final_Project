@@ -22,9 +22,7 @@ st.header("Introducing *MAG*, an educational tool to assist doctors studying for
 
 #Insert Designer's Names
 st.subheader("Designed and written by: ")
-st.write("1. Kátia M. Barros,")
-st.write("2. Juan Brugada,")
-st.write("3. and Andrew Rosenswie.")
+st.write("Kátia M. Barros, Juan Brugada, and Andrew Rosenswie.")
 
 st.subheader("Within this application, we employ a Large Language Model (LLM) from OpenAI. Provided is the analysis of medical question and answer pairs (~570K).")
 
