@@ -26,12 +26,12 @@ st.write("1. Kátia M. Barros,")
 st.write("2. Juan Brugada,")
 st.write("3. and Andrew Rosenswie.")
 
-st.subheader("Within this application, we employ a Large Language Model (LLM) from OpenAI. Provided is the analysis of medical question and answer pairs (570,712).")
+st.subheader("Within this application, we employ a Large Language Model (LLM) from OpenAI. Provided is the analysis of medical question and answer pairs (~570K).")
 
 
 # Insert a text box for users to input OpenAI API key
 st.subheader("Please enter your OpenAI API key below:")
-openai_api_key = st.text_input("Enter OpenAI key:")
+openai_api_key = st.text_input("Enter OpenAI key:", type="password")
 
 # Set the OpenAI API key as an environment variable
 os.environ["OPENAI_API_KEY"] = openai_api_key
@@ -43,11 +43,12 @@ user_question = st.text_input("Submit your question:")
 def ask_ai(query):
     index = GPTSimpleVectorIndex.load_from_disk('./Data/index.json')
     response = index.query(query)
-    display(Markdown(f"<b>{response.response}</b>"))
+    st.markdown(f"{response.response}")
 
 # Example usage:
 if user_question:
     ask_ai(user_question)
+
 
 st.subheader("Data Sources:")
 st.write("1. PubMedQA: Jin et al., 2019")
