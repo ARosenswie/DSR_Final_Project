@@ -18,7 +18,7 @@ def ask_ai():
 
 st.markdown("# *MAG* (Medical Advice Generator)")
 
-st.header("Introducing *MAG*, an educational tool to assist doctors studying for the Kenntnisprüfung in Germany.")
+st.header("Introducing *MAG*, an educational tool to assist international doctors studying for the Kenntnisprüfung in Germany.")
 
 #Insert Designer's Names
 st.subheader("Designed and written by: ")
@@ -51,4 +51,4 @@ if user_question:
 st.subheader("Data Sources:")
 st.write("1. PubMedQA: Jin et al., 2019")
 st.write("2. MedQA: Jin et al., 2020")
-st.write("3. MMLU: Hendrycks et al., 2020")
+st.write("3. MMLU: Hendrycks et al., 2021")
