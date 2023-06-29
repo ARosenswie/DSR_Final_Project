@@ -5,7 +5,7 @@ Created by Kátia Barros, Juan Brugada, and Andrew Rosenswie, under the mentorsh
 Germany is in the midst of a skilled labor shortage, which includes medical doctors (https://www.dw.com/en/germany-seeks-to-attract-foreign-skilled-workers/video-66016649). The solution for their problem is to bring non-EU doctors in who can practice medicine.
 
 ## Purpose of Project
-* In order for doctors to practice medicine, they have to pass a knowledge test (Kenntnisprüfung), irrespective of their career length.
+* In order for doctors to practice medicine within Germany, they have to pass a knowledge test (Kenntnisprüfung), irrespective of their career length.
 * Therefore, we designed an interactive medical question and answer (Q&A) chatbot, titled *MAG* (Medical Advice Generator).
 * Provided within this repositiory is the analysis of ~570K medical Q&A pairs taken from PubMedQA (Jin et al., 2019), MedQA (Jin et al., 2020), MMLU (Hendrycks et al., 2021), and MedMCQA (Pal et al., 2022).
 * We utilized llama indexing from OpenAI using the Generative Pre-trained Transformer (GPT) model <tt>text-davinci-003</tt>, with inference temperature set to 0.1.
