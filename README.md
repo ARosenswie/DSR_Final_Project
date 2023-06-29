@@ -7,10 +7,10 @@
 
 ## Data Sources:
 1. PubMedQA (Jin et al., 2019)
-   - (273,387 Q&A),
+   - 273,387 Q&A,
 2. MedQA (Jin et al., 2020)
-   - (12,721 Q&A),
+   - 12,721 Q&A,
 3. MMLU (Hendrycks et al., 2021),
-   - (100,338 Q&A),
+   - 100,338 Q&A,
 4. and MedMCQA (Pal et al., 2022)
-   - (187,005 Q&A).
+   - 187,005 Q&A.
