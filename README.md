@@ -9,11 +9,11 @@ Created by Kátia Barros, Juan Brugada, and Andrew Rosenswie, under the mentorsh
 * We utilized a llama index from OpenAI using the Generative Pre-trained Transformer (GPT) model <tt>text-davinci-003</tt>.
 
 ### Steps to run *MAG*
-1. Go to releases (right hand side of the GitHub repository),
+1. Go to releases (right-hand side of the GitHub repository),
 2. Click on the Data_29.06.2023 button,
 3. Download index.json.bz2,
 4. Uncompress index.json.bz2,
 5. Save it in the same folder where the cloned files are located,
-6. Posses an OpenAI API key (Needed for the running of *MAG*),
+6. Posses an OpenAI API key (needed for the running of *MAG*),
 7. Run <tt>streamlit_project.py</tt> to have a local app.
 ..
