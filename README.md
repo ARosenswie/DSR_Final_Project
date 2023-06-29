@@ -15,5 +15,5 @@ Created by Kátia Barros, Juan Brugada, and Andrew Rosenswie, under the mentorsh
 4. Uncompress index.json.bz2,
 5. Save it in the same folder where the cloned files are located,
 6. Posses an OpenAI API key (Needed for the running of *MAG*),
-7. Run *streamlit_project* to have a local app.
+7. Run <tt>streamlit_project.py</tt> to have a local app.
 ..
