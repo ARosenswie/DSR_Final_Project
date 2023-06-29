@@ -2,7 +2,7 @@
 Created by Kátia Barros, Juan Brugada, and Andrew Rosenswie, under the mentorship of Sina Rampe and Markus Hinsche.
 
 ## Motivation:
-Germany is in the midst of a skilled labor shortage, which includes medical doctors (https://www.dw.com/en/germany-seeks-to-attract-foreign-skilled-workers/video-66016649). The solution for their problem is to bring international doctors in who can practice medicine.
+Germany is in the midst of a skilled labor shortage, which includes medical doctors (https://www.dw.com/en/germany-seeks-to-attract-foreign-skilled-workers/video-66016649). The solution for their problem is to bring non-EU doctors in who can practice medicine.
 
 ## Purpose of Project
 * In order for doctors to practice medicine, they have to pass a knowledge test (Kenntnisprüfung), irrespective of their career length.
