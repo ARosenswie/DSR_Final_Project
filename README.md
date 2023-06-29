@@ -17,6 +17,9 @@ Germany is in the midst of a skilled labor shortage, which includes medical doct
 4. Uncompress index.json.bz2,
 5. Save it in the same folder where the cloned files are located,
 6. Posses an OpenAI API key (needed for the running of *MAG*),
-7. Open terminal window to view cloned folder,
-8. Run <tt>streamlit_project.py</tt> to have a local Streamlit application.
-..
+7. Open terminal window and create Conda environment in same folder,
+8. To install all needed packages, run <tt>pip install -r requirements.txt</tt>,
+9. Run <tt>streamlit run streamlit_project.py</tt> to have a local Streamlit application.
+10. Insert your personal OpenAI API key,
+11. Enter your medical question,
+12. Sit back and enjoy the power of *MAG* :) .
