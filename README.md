@@ -1,10 +1,13 @@
 # DSR_Final_Project (Data Source)
 
 ## Methods
-* We analyzed questions that were given with correct and incorrect answers.
-* We removed all possible answers that were incorrect from the questions, resulting in Question Answer (Q&A) pairs.
-* Some questions were given a question, context, and then We then transfomred the dataset into only 
+* We accessed different public data sources and made question and answer (Q&A) pairs from each dataset (e.g. when incorrect optional answers or context and methods were given, those were deleted).
+* With the formated data from each dataset, we then grouped it together and perfomed data cleaning, generating two files (Download the 'train_output.txt' and 'test_output.txt' inside 'Release' <<https://github.com/ARosenswie/DSR_Final_Project/releases/tag/total_data_29.06.2023>> ).
+* Apart from that, 36 Q&A were extracted from five different medical textbooks for the validation of the model.
+* The questions with their answers provided by the book and by MAG can be found at 'MAG_q_a.csv'.
+* Various metrics can also be found at 'Evaluating_MAG.ipynb'.
 
+ 
 ## Data Sources:
 1. PubMedQA (Jin et al., 2019)
    - 273,387 Q&A,
