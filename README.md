@@ -23,3 +23,14 @@ Germany is in the midst of a skilled labor shortage, which includes medical doct
 10. Insert your personal OpenAI API key,
 11. Enter your medical question,
 12. Sit back and enjoy the power of *MAG* :) .
+
+## Disclaimer
+
+*MAG* is designed as an educational tool, **NOT** for professional medical use. 
+
+## Citation
+
+If you find this repository useful and want to cite it in your work, please use the following format:
+
+GitHub Repository: [MAG](https://github.com/ARosenswie/DSR_Final_Project) <br>
+Citation: *MAG* (Medical Advice Generator); Barros, Brugada, and Rosenswie., 2023
