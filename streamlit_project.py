@@ -10,6 +10,7 @@ from IPython.display import Markdown, display
 
 def ask_ai():
     index = GPTSimpleVectorIndex.load_from_disk('./Data/index.json')
+    #Change directory to the directory where the index is stored 
     while True:
         query = input("What do you want to ask? ")
         response = index.query(query)
