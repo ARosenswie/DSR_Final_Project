@@ -18,7 +18,6 @@ def ask_ai():
 
 
 st.markdown("# *MAG* (Medical Advice Generator)")
-#Insert Designer's Names
 st.write("Designed and written by: Kátia M. Barros, Juan Brugada, and Andrew Rosenswie")
 st.write("Supervised by: Sina Rampe and Markus Hinsche")
 
