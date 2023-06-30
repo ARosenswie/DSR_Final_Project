@@ -1,4 +1,3 @@
-
 # !pip install langchain==0.0.148
 # !pip install rouge
 import streamlit as st
@@ -6,24 +5,12 @@ from llama_index import SimpleDirectoryReader, GPTListIndex, readers, GPTSimpleV
 from langchain import OpenAI
 import sys
 import os
-from IPython.display import Markdown, display
-
-def ask_ai():
-    index = GPTSimpleVectorIndex.load_from_disk('./Data/index.json')
-    #Change directory to the directory where the index is stored 
-    while True:
-        query = input("What do you want to ask? ")
-        response = index.query(query)
-        display(Markdown(f"<b>{response.response}</b>"))
-
 
 st.markdown("# *MAG* (Medical Advice Generator)")
 st.write("Designed and written by: Kátia M. Barros, Juan Brugada, and Andrew Rosenswie")
 st.write("Supervised by: Sina Rampe and Markus Hinsche")
 
 st.markdown("### Introducing *MAG*, an educational tool to assist international doctors studying for the Kenntnisprüfung in Germany.")
-
-
 st.markdown("### Within this application, we employ a Large Language Model (LLM) from OpenAI. Provided is the analysis of medical question and answer pairs (~570K).")
 
 
@@ -47,11 +34,7 @@ def ask_ai(query):
 if user_question:
     ask_ai(user_question)
 
-# make the soures below be a hyperlink
-
-
 st.markdown("#### Data Sources:") 
-# url to add is https://github.com/pubmedqa/pubmedqa
 st.write("1. PubMedQA: Jin et al., 2019 (273,387 Q&A) [Click here for link](https://arxiv.org/abs/1909.06146)")
 st.write("2. MedQA: Jin et al., 2020 (12,721 Q&A) [Click here for link](https://arxiv.org/abs/2009.13081v1)")
 st.write("3. MMLU: Hendrycks et al., 2021 (100,338 Q&A) [Click here for link](https://arxiv.org/abs/2009.03300v3)")
