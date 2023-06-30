@@ -1,9 +1,5 @@
-# !pip install langchain==0.0.148
-# !pip install rouge
 import streamlit as st
-from llama_index import SimpleDirectoryReader, GPTListIndex, readers, GPTSimpleVectorIndex, LLMPredictor, PromptHelper, ServiceContext
-from langchain import OpenAI
-import sys
+from llama_index import GPTSimpleVectorIndex
 import os
 
 st.markdown("# *MAG* (Medical Advice Generator)")
@@ -27,6 +23,7 @@ user_question = st.text_input("")
 
 def ask_ai(query):
     index = GPTSimpleVectorIndex.load_from_disk('./Data/index.json')
+    #Change directory to the one containing the index
     response = index.query(query)
     st.markdown(f"{response.response}")
 
