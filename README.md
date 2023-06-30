@@ -8,7 +8,7 @@ Germany is in the midst of a skilled labor shortage, which includes medical doct
 * In order for doctors to practice medicine within Germany, they have to pass a knowledge test (Kenntnisprüfung), irrespective of their career length.
 * Therefore, we designed an interactive medical question and answer (Q&A) chatbot, titled *MAG* (Medical Advice Generator).
 * Provided within this repositiory is the analysis of ~570K medical Q&A pairs taken from PubMedQA (Jin et al., 2019), MedQA (Jin et al., 2020), MMLU (Hendrycks et al., 2021), and MedMCQA (Pal et al., 2022).
-* We utilized llama indexing using the Generative Pre-trained Transformer (GPT) model <tt>text-davinci-003</tt>, with inference temperature set to 0.1.
+* We utilized llama indexing (https://github.com/jerryjliu/llama_index) using the Generative Pre-trained Transformer (GPT) model <tt>text-davinci-003</tt>, with inference temperature set to 0.1.
 
 ### Steps to run *MAG*
 1. Go to "Releases" ([click here](https://github.com/ARosenswie/DSR_Final_Project/releases/tag/29.06.2023)),
