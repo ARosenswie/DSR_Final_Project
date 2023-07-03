@@ -6,7 +6,7 @@ st.markdown("# *MAG* (Medical Advice Generator)")
 st.write("Designed and written by: Kátia M. Barros, Juan Brugada, and Andrew Rosenswie")
 st.write("Supervised by: Sina Rampe and Markus Hinsche")
 
-st.markdown("### Introducing *MAG*, an educational tool to assist international doctors studying for the Kenntnisprüfung in Germany.")
+st.markdown("### Introducing *MAG*, an educational tool to assist non-EU doctors studying for the Kenntnisprüfung in Germany.")
 st.markdown("### Within this application, we employ a Large Language Model (LLM) from OpenAI. Provided is the analysis of medical question and answer pairs (~570K).")
 
 
